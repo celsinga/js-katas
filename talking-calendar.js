@@ -22,7 +22,7 @@ const talkingCalendar = function(date) {
       return day
     }
   }
-
+  
   const outputStr = `${month} ${dayClean(day)}${th(day)}, ${year}`;
   return outputStr;
 };
