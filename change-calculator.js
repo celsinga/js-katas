@@ -2,7 +2,7 @@ const calculateChange = function(total, cash) {
   let calc = ((cash - total) / 100);
   let changeObj = {};
 
-  const cashTypes = ["twenty", "ten", "five", "twoDollar", "dollar", "quarter", "dime", "nickel", "penny"]
+  const cashTypes = ["twentyDollar", "tenDollar", "five", "twoDollar", "dollar", "quarter", "dime", "nickel", "penny"]
   const cashValues = [20, 10, 5, 2, 1, 0.25, 0.10, 0.05, 0.01];
 
   let amount;
