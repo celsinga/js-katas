@@ -1,7 +1,6 @@
 const makeCase = function(input, cases) {
   const arr = input.split(' ');
   
-  // expected output:
   // thisIsAString
   if (cases === "camel") {
     let str = "";
